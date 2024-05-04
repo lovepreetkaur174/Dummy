@@ -16,3 +16,12 @@ color: #a8dadc;
      background: #a8dadc !important
 }
 
+
+/* Remove scrollbar from chrome */
+html::-webkit-scrollbar{
+    display: none;
+}
+/* Removed scrollbar from firefox */
+html{
+    scrollbar-width: none;
+}
